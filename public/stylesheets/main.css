@@ -5,15 +5,22 @@ html, body, #container {
     height: 100%;
 }
 main {
-    height: calc(100% - 72px);
-    background: green;
+    height: calc(100% - 97px);
 }
 .half {
     height: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 15px solid transparent;
 }
 .half:first-child {
     background-color: #DFDFDF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30 px;
+
 }
 .half:last-child {
     background-color: #DDD111;
+    margin-bottom: 15px;
 }
