@@ -1,0 +1,19 @@
+* {
+    margin: 0; padding: 0;
+}
+html, body, #container {
+    height: 100%;
+}
+main {
+    height: calc(100% - 72px);
+    background: green;
+}
+.half {
+    height: 50%;
+}
+.half:first-child {
+    background-color: #DFDFDF;
+}
+.half:last-child {
+    background-color: #DDD111;
+}
