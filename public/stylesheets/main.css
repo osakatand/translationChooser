@@ -24,3 +24,7 @@ main {
     background-color: #DDD111;
     margin-bottom: 15px;
 }
+.phrase {
+    display: inline-block;
+    vertical-align: middle;
+}
