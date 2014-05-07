@@ -28,3 +28,18 @@ main {
     display: inline-block;
     vertical-align: middle;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.liste
+    {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 5px;
+    margin-left: 0px;
+    padding-right: 5px
+    }
