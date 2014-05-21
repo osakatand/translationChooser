@@ -5,7 +5,7 @@ html, body, #container {
     height: 100%;
 }
 main {
-    height: calc(100% - 97px);
+    height: calc(100% - 102px);
 }
 .half {
     height: 50%;
@@ -15,7 +15,7 @@ main {
 }
 .half:first-child {
     background-color: #DFDFDF;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 15px;
     padding: 30 px;
 
