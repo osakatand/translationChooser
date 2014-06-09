@@ -1,7 +1,10 @@
 * {
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
 }
-html, body, #container {
+html,
+body,
+#container {
     height: 100%;
 }
 main {
@@ -18,7 +21,6 @@ main {
     margin-top: 0px;
     margin-bottom: 15px;
     padding: 30 px;
-
 }
 .half:last-child {
     background-color: #DDD111;
@@ -28,13 +30,10 @@ main {
     display: inline-block;
     vertical-align: middle;
 }
-
 ul {
     list-style-type: none;
 }
-
-.liste
-    {
+.liste {
     display: inline-block;
     vertical-align: middle;
     border-left: 1px solid black;
@@ -42,4 +41,4 @@ ul {
     padding-left: 5px;
     margin-left: 0px;
     padding-right: 5px
-    }
+}
