@@ -12,3 +12,28 @@ $(document).ready(function () {
         }
     });
 });
+
+function creeAlternative() {
+    insertTag('<span class="liste">', '<br>*</span>','zozo')
+};
+
+function insertTag(startTag, endTag, textareaId) {
+    //var field  = document.getElementById(textareaId);
+    var field = $('#'+textareaId);
+    var scroll = field.scrollTop;
+    field.focus();
+    var startSelection   = field.text().substring(0, field.selectionStart);
+    var currentSelection = field.text().substring(field.selectionStart, field.selectionEnd);
+    var endSelection     = field.text().substring(field.selectionEnd);
+    field.text(startSelection + startTag + currentSelection + endTag + endSelection);
+//    field.value = "brrrrout" // test (inopérant)
+    field.focus();
+    //field.setSelectionRange(startSelection.length + startTag.length, startSelection.length + startTag.length + currentSelection.length);
+    field.scrollTop = scroll; // et on redéfinit le scroll.
+};
+
+function ajouteProposition(endroit) {
+    document.getElementById(endroit).innerHTML += "<br>nouveau texte"
+};
+
+

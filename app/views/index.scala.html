@@ -5,6 +5,7 @@
 <main>
     <section class="half">
         <div class="container-fluid">
+            <button type="button" onclick="creeAlternative();">Créer une alternative à la sélection</button><br>
             <span class="phrase" id="source">
                 Je dis bonjour à &nbsp;
             </span>
@@ -15,7 +16,7 @@
                     <li>Pauline</li>
                 </ul>
             </span>
-            <span>
+            <span id="zozo">
             &nbsp; et je m'en vais. Mais &nbsp;
             </span>
             <span class="liste">
@@ -27,12 +28,12 @@
             <span class="phrase">
                 &nbsp; Je ne suis pas certain que &nbsp;
             </span>
-            <span class="liste">
+            <span class="liste" id="testpropositions">
                 l'utilisation d'une liste soit nécessaire<br>
                 nous soyons obligés de passer par les listes
-            </span>
+            </span><button type="button" onclick="ajouteProposition('testpropositions');">+</button>
             <span class="phrase">
-                .
+                . Est-ce nuisible &agrave; la lecture du reste du texte ?
             </span>
     </div>
 
