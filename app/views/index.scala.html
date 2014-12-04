@@ -7,33 +7,15 @@
         <div class="container-fluid">
             <button type="button" onclick="creeAlternative();">Créer une alternative à la sélection</button><br>
             <span class="phrase" id="source">
-                Je dis bonjour à &nbsp;
-            </span>
-            <span class="liste">
-                <ul>
-                    <li>tout le monde</li>
-                    <li>Jacob</li>
-                    <li>Pauline</li>
-                </ul>
-            </span>
-            <span id="zozo">
-            &nbsp; et je m'en vais. Mais &nbsp;
-            </span>
-            <span class="liste">
-                <ul>
-                    <li>que se passe-t-il ?</li>
-                    <li>que m'arrive-t-il ?</li>
-                </ul>
-            </span>
-            <span class="phrase">
-                &nbsp; Je ne suis pas certain que &nbsp;
-            </span>
+                Je dis bonjour &agrave; tout le monde et je m'en vais. Mais que se passe-t-il ?
+                Je ne suis pas certain que
             <span class="liste" id="testpropositions">
-                l'utilisation d'une liste soit nécessaire<br>
-                nous soyons obligés de passer par les listes
-            </span><button type="button" onclick="ajouteProposition('testpropositions');">+</button>
-            <span class="phrase">
-                . Est-ce nuisible &agrave; la lecture du reste du texte ?
+                <ul id="treo"><li>l'utilisation d'une liste soit nécessaire
+                <button type="button" onclick="ajouteProposition('testpropositions');">+</button></li>
+                <li>nous soyons obligés de passer par les listes</li></ul>
+            </span>
+            Cela permet cependant de ne pas détruire une proposition trop facilement en supprimant le retour à la ligne;
+                nous conserverons les listes.
             </span>
     </div>
 
